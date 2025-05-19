@@ -43,7 +43,6 @@ public  class StatistiqueImpl implements Statistique{
         if (remise > SEUIL_REMISE_MAX) {
             remise = SEUIL_REMISE_MAX;
         }
-
         return (int) (prixTotalDesVoitures - remise);
 
     }
