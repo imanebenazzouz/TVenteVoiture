@@ -10,7 +10,9 @@ public class VoitureTest {
     public void creerVoiture (){
         Voiture voiture = new Voiture("Ferrari", 8000.00);
         assertTrue(voiture.getMarque().equals("Ferrari"), "Doit etre Ferrari");
-        assertTrue(voiture.getPrix() == 8000.00, "Doit etre 8000");
+        assertTrue(voiture.getPrix() == 8000.00, "Doit etre 8000.00");
         assertTrue (voiture.getId() == 0, "Doit etre 0");
     }
+
+
 }
