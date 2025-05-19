@@ -46,4 +46,9 @@ public  class StatistiqueImpl implements Statistique{
         return (int) (prixTotalDesVoitures - remise);
 
     }
+
+    @Override
+    public int getNbVoitures() {
+        return voitures.size();
+    }
 }

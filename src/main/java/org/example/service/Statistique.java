@@ -18,4 +18,6 @@ public interface Statistique {
      */
     public int prix() throws ArithmeticException;
 
+    public int getNbVoitures();
+
 }
