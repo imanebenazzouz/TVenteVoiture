@@ -16,7 +16,7 @@
     </properties>
 
     <dependencies>
-        <!-- JUnit Jupiter API and Engine -->
+        <!-- JUnit Jupiter API and Engine    -->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>
