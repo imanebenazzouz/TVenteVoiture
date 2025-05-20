@@ -21,6 +21,7 @@ dependencies {
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testImplementation 'org.junit.jupiter:junit-jupiter-engine:5.10.2'
 	testImplementation 'org.junit.platform:junit-platform-suite-engine:1.10.2'
+
 }
 
 tasks.named('test') {
